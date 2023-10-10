@@ -16,8 +16,4 @@ setup(
     long_description=open('readme.md').read(),
     packages=find_packages(),
     install_requires=['SpeechRecognition', 'pyaudio', 'mysql-connector-python' ],
-    keywords=["mycursor","tablename1","tablename2","t1c1","t1c2","t1c3","t2c1","t2c2","t3c3"],
-    classifiers=[
-        "Operating System :: Microsoft :: Windows",
-    ]
 )
