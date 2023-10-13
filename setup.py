@@ -12,8 +12,6 @@ setup(
     name="MySQLvoice",
     version=VERSION,
     description=DESCRIPTION,
-    long_description_content_type="text/markdown",
-    long_description=open('readme.md').read(),
     packages=find_packages(),
     install_requires=['SpeechRecognition', 'pyaudio', 'mysql-connector-python' ],
 )
